@@ -94,6 +94,12 @@ input.ISBN{
 .section1-2-2{
     background-color: #f2f7fa;
 }
+.comprabutton:hover{
+    transform: scale(1.1);
+}
+.vendebutton:hover{
+    transform: scale(1.1);
+}
 .comprabutton{
     background-color: #f3d2c1;
     border: 0;
@@ -225,6 +231,9 @@ input.ISBN{
     border-radius: 5%;
     cursor: pointer;
     font-family: "Oswald", sans-serif;
+}
+.section3-1 button:hover{
+    transform: scale(1.1);
 }
 .section3-2{
     background-color: #f2f7fa;
@@ -1089,4 +1098,102 @@ label {
 .subordenarporstyle {
     color: #394e7f;
     font-family: "Montserrat", sans-serif;
+}
+
+/*Compra*/
+
+.section4{
+    display: flex;
+    width: 100%;
+}
+.section4-1{
+    background-color:#f2f7fa;
+}
+input.ISBN2{
+width: 420px;
+padding: 10px;
+border: 0;
+border-radius: 4px;
+color: black;
+background-color: #dfedf5;
+font-weight: bold;
+font-family: "Montserrat", sans-serif;
+height: 20px;
+background-image: url(fotos/lupa.png);
+background-size: 18px 18px;
+background-repeat: no-repeat;
+background-position: right center;
+background-position-x: 410px; 
+}
+
+
+
+
+/*Querries*/
+
+@media (max-width: 604px){
+
+    .contenedor1{
+        width: 200px;
+        
+        
+    }
+    .contenedor1_1{
+        width: 350px;
+        text-align: center;
+    }
+    .contenedor1_2 {
+        width: 350px;
+        text-align: center;
+        font-size: 17px;
+    }
+    .contenedor11{
+        display: block;
+    }
+}
+.contenedor4-1{
+    display: none;
+}
+.contenedor5-1{
+    display: none;
+}
+@media (max-width: 904px) {
+    .contenedor1{
+        padding-left: 130px;
+    }
+    .contenedor1_2 {
+        width: 680px;
+        font-size: 17px;
+    }
+    .contenedor4{
+        display: none;
+    }
+    .contenedor5{
+        display: none;
+    }
+
+    .contenedor6{
+        display: none;
+    }
+    .contenedor4-1{
+        display: flex;
+        width: 400px;
+        height: 400px;
+    }
+    .contenedor4-1 img{
+        width: 400px;
+        height: 400px;
+        margin-left: 250px;
+    }
+    .contenedor5-1{
+        display: flex;
+    }
+    .contenedor5-1 img{
+        width: 400px;
+        height: 400px;
+        margin-left: 250px;
+    }
+    .bgc{
+        background-color: #fef7e9;
+    }
 }
