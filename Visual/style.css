@@ -596,6 +596,7 @@ input[type="submit"] {
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #dfedf5;
+    width: 100%;
 }
 
 .flex-container>div {
@@ -1108,6 +1109,39 @@ label {
 }
 .section4-1{
     background-color:#f2f7fa;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.section4-2{
+    color: #394e7f;
+    width: 60%;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    margin-left: 75px;
+}
+.section4-2-1{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    color: #394e7f;
+    margin-left: 92px;
+}
+.find-books1{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 85px;
+}
+.find-books0{
+    height: 50px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    background-color: white;
 }
 input.ISBN2{
 width: 420px;
@@ -1126,12 +1160,76 @@ background-position: right center;
 background-position-x: 410px; 
 }
 
-
-
-
+.section5{
+    display: flex;
+    width: 100%;
+}
+.section5-1{
+    width: 20%;
+    background-color: #f3d2c1;
+}
+.section5-2{
+    width: 80%;
+}
+.section5-2-1{
+    text-align: left;
+    width: 53%;
+    height: 600px;
+    margin-left: 75px;
+}
+.section5-2-1flex{
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+}
+.section5-2-1-1{
+    width: 280px;
+    height: 350px;
+    background-color: #f2f7fa;
+    border-radius: 12px;
+}
+.section5-2-1-1 img{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.section5-2-1-2 {
+    width: 280px;
+    height: 300px;
+    margin-left: 42px;
+}
+.section5-2-1-2 p{
+    font-family: "Montserrat", sans-serif;
+    color: #394e7f;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.section5-2-1-2 h1{
+    font-family: "Oswald", sans-serif;
+    color: #394e7f;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.comprabutton1{
+    background-color: #f3d2c1;
+    border: 0;
+    border-radius: 8px;
+    margin: 10px;
+    margin-left: 45px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 10px;
+    font-family: "Oswald", sans-serif;
+    background-image: url(fotos/carrito.png);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: 7px;
+    font-size: 18px;
+}
 /*Querries*/
 
-@media (max-width: 604px){
+@media (max-width: 804px){
 
     .contenedor1{
         width: 200px;
@@ -1149,6 +1247,12 @@ background-position-x: 410px;
     }
     .contenedor11{
         display: block;
+    }
+    .menu{
+        display: none;
+    }
+    .menu__btn{
+        display: flex;
     }
 }
 .contenedor4-1{
